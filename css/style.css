@@ -1,0 +1,40 @@
+body { padding-top: 70px; }
+
+.container-fluid {
+	max-width: 75%;
+}
+
+.navbar-custom {
+	background-color: #222;
+	border-color: #129115;
+	/*font-size: 1.05rem;*/
+	border-width: 0 0 5px;
+}
+
+.navbar-brand {
+	color: #FFF;
+}
+
+.navbar-brand:hover {
+	color: #FFF;
+	background-color: #129115;
+}
+
+.navbar-nav > li > a {
+	color: #FFF;
+}
+
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+	background-color: #129115;
+}
+
+.landingcontent {
+	display: block;
+	margin: 3em auto 0 auto;
+}
+
+.landingtext {
+	font-size: 3em;
+	margin: auto;
+}
