@@ -2,17 +2,6 @@ body {
 	background-color: #DA9F11;
 }
 
-button {
-    background:none!important;
-    border:none; 
-    padding:0!important;
-    font: inherit;
-    color: #888;
-    /*border is optional*/
-    border-bottom:1px solid #888; 
-    cursor: pointer;
-}
-
 .navbar-custom {
 	border-color: #DA9F11;
 }
