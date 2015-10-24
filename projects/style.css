@@ -7,6 +7,7 @@ button {
     border:none; 
     padding:0!important;
     font: inherit;
+    font-size: 1.2em;
     color: #aaa;
     /*border is optional*/
     border-bottom:1px solid #aaa; 
