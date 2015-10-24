@@ -1,0 +1,99 @@
+body {
+	background-color: #D72A2A;
+}
+
+button {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    color: #aaa;
+    /*border is optional*/
+    border-bottom:1px solid #aaa; 
+    cursor: pointer;
+}
+
+.navbar-custom {
+	border-color: #D72A2A;
+}
+
+.navbar-brand:hover {
+	background-color: #D72A2A;
+}
+
+.projects-main {
+	border-color: #D72A2A;
+}
+
+.project-header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.project-header p {
+	margin-bottom: 2px;
+}
+
+.project-title {
+	font-size: 2em;
+}
+
+.project-tagline {
+	font-size: 1.3em;
+}
+
+.show-hide {
+	padding: 0.5em 0 0 0;
+}
+
+.project-details {
+	display: none;
+	padding: 2em 0 2em 0;
+}
+
+.project-details a {
+	color: #aaa;
+	text-decoration: underline;
+}
+
+.project-source {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.project-source > a {
+	color: #aaa;
+}
+
+.border {
+	width: 100%;
+	height: 0;
+	border-width: 0 0 3px;
+	border-style: solid;
+	border-color: #D72A2A;
+}
+
+#tgthr {
+	background-color: #333;
+}
+
+#nodecg-for-smash {
+	background-color: #444;
+}
+
+#pickaplace {
+	background-color: #555;
+}
+
+#project-launch {
+	background-color: #666;
+}
+
+.text-footericon {
+	color: #D72A2A;
+}
+
+footer {
+	background-color: #D72A2A;
+}

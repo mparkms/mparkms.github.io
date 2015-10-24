@@ -1,0 +1,46 @@
+body {
+	background-color: #DA9F11;
+}
+
+button {
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    font: inherit;
+    color: #888;
+    /*border is optional*/
+    border-bottom:1px solid #888; 
+    cursor: pointer;
+}
+
+.navbar-custom {
+	border-color: #DA9F11;
+}
+
+.navbar-brand:hover {
+	background-color: #DA9F11;
+}
+
+.work-main {
+	border-color: #DA9F11;
+}
+
+.border {
+	border-color: #DA9F11;
+}
+
+#ubcta {
+	background-color: #333;
+}
+
+#ubcea {
+	background-color: #444;
+}
+
+.text-footericon {
+	color: #DA9F11;
+}
+
+footer {
+	background-color: #DA9F11;
+}

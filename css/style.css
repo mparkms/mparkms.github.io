@@ -1,18 +1,30 @@
-body { padding-top: 70px; }
+body {
+	padding-top: 50px;
+	font-family: 'Oxygen', sans-serif;
+	background-color: #118514;
+}
+
+a,
+a:hover,
+a:focus {
+	color: #555;
+}
 
 .container-fluid {
 	max-width: 75%;
 }
 
 .navbar-custom {
-	background-color: #222;
+	background-color: #111;
 	border-color: #129115;
-	/*font-size: 1.05rem;*/
-	border-width: 0 0 5px;
+	font-size: 1.15em;
+	border-width: 0 0 3px;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .navbar-brand {
 	color: #FFF;
+	font-size: 1.15em;
 }
 
 .navbar-brand:hover {
@@ -29,12 +41,201 @@ body { padding-top: 70px; }
 	background-color: #129115;
 }
 
+#nav-about:focus,
+#nav-about:hover {
+	background-color: #347CF3;
+}
+
+#nav-projects:focus,
+#nav-projects:hover {
+	background-color: #D72A2A;
+}
+
+#nav-work:focus,
+#nav-work:hover {
+	background-color: #DA9F11;
+}
+
+#nav-blog:focus,
+#nav-blog:hover {
+	background-color: #9846f4;
+}
+
+#nav-contact:focus,
+#nav-contact:hover {
+	background-color: #118514;
+}
+
+
+.landing {
+	background-color: #222;
+}
+
 .landingcontent {
 	display: block;
-	margin: 3em auto 0 auto;
+	padding: 5em 1em 5em 1em;
+	min-height: 300px;
 }
 
 .landingtext {
 	font-size: 3em;
 	margin: auto;
+	color: #DDD;
+}
+
+.landingsubtext {
+	font-size: 2em;
+	margin: auto;
+	color: #888;
+}
+
+.snippet {
+	color: #DDD;
+	background-color: #333;
+	border-color: #129115;
+	border-width: 3px 0 3px;
+	border-style: solid;
+	padding: 2em 1em 2em 1em;
+}
+
+.landingstrip {
+	/*font-style: italic;*/
+	padding: 3em 1em 3em 1em;
+}
+
+.landingstrip > h1 {
+	font-size: 3em;
+	/*float: left;*/
+	display: inline;
+	vertical-align: middle;
+}
+
+.landingstrip > h1 > a {
+	color: #333;
+}
+
+.landingstrip > p {
+	/*float: left;*/
+	padding-left: 1em;
+	font-size: 1.15em;
+	display: inline;
+	vertical-align: middle;
+}
+
+.buttons {
+	background-color: #444;
+}
+
+.about,
+.about > a {
+	color: #347CF3;
+}
+
+.projects,
+.projects > a {
+	color: #d72a2a;
+}
+
+.work,
+.work > a {
+	color: #da9f11;
+}
+
+.blog,
+.blog > a {
+	color: #9846f4;
+}
+
+.contact,
+.contact > a {
+	color: #118514;
+}
+
+.landingbuttons {
+	padding: 3.1em 1em 3.1em 1em;
+	text-align: center;
+}
+
+.landingbutton {
+	transition: transform 0.2s;
+	-o-transition: transform 0.2s;
+  	-moz-transition: transform 0.2s;
+  	-webkit-transition: transform 0.2s;
+}
+
+.landingbutton:hover,
+.landingbutton:focus {
+	transform: translateY(-3px);
+}
+
+.landingbutton > a:hover,
+.landingbutton > a:focus {
+	text-decoration: none !important;
+}
+
+.landingbuttonhead {
+	font-size: 2em;
+}
+
+.landingbuttonicon {
+	color: #444;
+}
+
+.footerbuttons {
+	padding-top: 3em;
+	text-align: center;
+	color: #333;
+}
+
+.footerbutton {
+	margin: 0 auto 10px auto;
+	color: #333;
+	transition: transform 0.2s;
+	-o-transition: transform 0.2s;
+  	-moz-transition: transform 0.2s;
+  	-webkit-transition: transform 0.2s;
+}
+
+.footerbutton:hover,
+.footerbutton:focus {
+	transform: translateY(-3px);
+}
+
+.text-footericon {
+	color: #118514;
+}
+
+footer {
+	background-color: #118514;
+}
+
+.footertext {
+	color: #333;
+	margin: 0 auto 10px auto;
+}
+
+.container {
+	color: #DDD;
+}
+
+.page-main {
+	background-color: #222;
+	border-width: 0 0 3px;
+	border-style: solid;
+}
+
+.page-main-text {
+	padding: 5em 1em 5em 1em;
+}
+
+.page-main-text > h1 {
+	font-size: 3em;
+}
+
+.page-secondary {
+	background-color: #333;
+}
+
+.page-secondary-text {
+	padding: 3em 1em 3em 1em;
 }

@@ -1,0 +1,23 @@
+.contact-main {
+	border-color: #118514;
+}
+
+.email,
+.email > a {
+	color: #D54B3D;
+}
+
+.github,
+.github > a {
+	color: #161312;
+}
+
+.linkedin,
+.linkedin > a {
+	color: #0077B5;
+}
+
+.twitter,
+.twitter > a {
+	color: #2AA9E0;
+}

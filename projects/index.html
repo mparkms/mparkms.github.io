@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Mike Park</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="projects.js"></script>
+
+  </head>
+  <body>
+	<nav class="navbar navbar-custom navbar-fixed-top">
+	<div class="container-fluid">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="/">Mike Park</a>
+	  </div>
+
+	  <!-- Collect the nav links, forms, and other content for toggling -->
+	  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		<ul class="nav navbar-nav navbar-right">
+		  <li>
+			<a href="/about" id="nav-about">About</a>
+		  </li>
+		  <li>
+			<a href="/projects" id="nav-projects">Projects</a>
+		  </li>
+		  <li>
+			<a href="/work" id="nav-work">Work</a>
+		  </li>
+		  <li>
+			<a href="/blog" id="nav-blog">Blog</a>
+		  </li>
+		  <li>
+			<a href="/contact" id="nav-contact">Contact</a>
+		  </li>
+		</ul>
+	  </div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+	</nav>
+
+	<section class="page-main projects-main">
+		<div class="container page-main-text">
+			<h1>My Projects</h1>
+			<p>What I've worked on in the past.</p>
+		</div>
+	</section>
+	<section class="page-secondary" id="tgthr">
+		<div class="container page-secondary-text">
+			<div class="row project-header">
+				<div class="col-sm-8">
+					<span class="project-title">tgt.hr &ndash; </span><span class="project-tagline">Watch better together.</span>
+					<p>Oct 2015 &ndash; Present</p>
+					<i>Node.js, Socket.io, JavaScript, HTML5, CSS3, jQuery, YouTube API, Azure</i>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<img src="/img/tgthr.png" align="right">
+				</div>
+			</div>
+			<div class="show-hide"><center><button class="show-hide-btn">Show details</button></center></div>
+			<div class="project-details">
+				<div class="row">
+					<div class="col-sm-12">
+						<p>Developed in 24 hours at DubHacks 2015 and winner of 2nd place for Best Overall Use of Microsoft Tech at DubHacks, tgt.hr lets you watch YouTube videos simultaneously in-sync with others across the world. You can submit videos to the queue to watch, decide what to watch next by voting on the videos in the queue, and chat anonymously about the video you're watching with others. tgt.hr keeps everyone in sync, watching the same videos so you can discuss and react as if you're right next to each other on the couch. You can also create your own room so that you can watch with only people you know or just for certain topics.</p>
+
+						<p>I was responsible for implementing the client logic, including communication with the server, handling responses from the server, and managing and displaying the video queue. I also assisted with designing the client and YouTube playback.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="border"></div>
+	<section class="page-secondary" id="nodecg-for-smash">
+		<div class="container page-secondary-text">
+			<div class="row project-header">
+				<div class="col-sm-8">
+					<span class="project-title">NodeCG for Smash &ndash; </span><span class="project-tagline">Easier, better dynamic graphics for livestreaming <i>Super Smash Bros.</i> tournaments.</span>
+					<p>Jul 2015 &ndash; Present</p>
+					<i>Node.js, JavaScript, HTML5, CSS3, jQuery, Challonge API</i>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<img src="/img/nodecg for smash.png" align="right">
+				</div>
+			</div>
+			<div class="show-hide"><center><button class="show-hide-btn">Show details</button></center></div>
+			<div class="project-details">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="project-source"><a href="https://github.com/mparkms/nodecg-for-smash">Source code on GitHub</a></div>
+						<p>NodeCG for Smash is a collection of dynamic graphics bundles for livestreaming <i>Super Smash Bros.</i> tournaments. Built on <a href="http://nodecg.com/">NodeCG</a>, a framework for dynamic livestream graphics, I developed NodeCG for Smash to provide high quality, easy to use dynamic livestream graphics for the Smash community and raise the average production quality of Smash livestreams. The graphics are built entirely as web pages, written in HTML and CSS. JavaScript, jQuery, and Node.js provides the dynamic graphics logic and connects the graphics with the dashboard where everything is controlled, which uses Bootstrap for an easy to use interface.</p>
+
+						<p>NodeCG for Smash has been successfully used in Vancouver-area Smash tournaments with positive feedback from viewers and streamers alike.</p>
+
+						<a href="https://www.youtube.com/watch?v=aizuuT6fb74">See NodeCG for Smash in action at Kings of Vancouver 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="border"></div>
+	<section class="page-secondary" id="pickaplace">
+		<div class="container page-secondary-text">
+			<div class="row project-header">
+				<div class="col-sm-8">
+					<span class="project-title">PickAPlaceFor.Us &ndash; </span><span class="project-tagline">Choose where to eat with no fuss.</span>
+					<p>Mar 2015</p>
+					<i>Java, Socket.io, Node.js, Android, Yelp API, Google Places API</i>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<img src="/img/pickaplace.png" align="right">
+				</div>
+			</div>
+			<div class="show-hide"><center><button class="show-hide-btn">Show details</button></center></div>
+			<div class="project-details">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="project-source"><a href="https://github.com/yeah568/foodvote">Client source code on GitHub</a> | <a href="https://github.com/yeah568/foodvote-server">Server source code on GitHub</a></div>
+						<p>Developed in 36 hours at nwHacks 2015, PickAPlaceFor.Us is an Android app that lets group quickly and easily decide where to eat through a series of votes; inspired by the Gale-Shapely algorithm, the app determines where the best place to go is. Users create lobbies to share with their friends, and they nominate restaurants to go to. Each vote pits two restaurants against each other, with a sliding scale to determine preference. The winner of each round then goes against the next restaurant, and so on, until only one final restaurant remains.</p>
+
+						<p>I was responsible for designing and developing the Android client app, including communication with the server, the user interface for voting, searching and adding new restaurants, and creating and joining groups.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="border"></div>
+	<section class="page-secondary" id="project-launch">
+		<div class="container page-secondary-text">
+			<div class="row project-header">
+				<div class="col-sm-8">
+					<span class="project-title">Project Launch &ndash; </span><span class="project-tagline">Sample and create your own music, all in-browser.</span>
+					<p>Oct 2014</p>
+					<i>JavaScript, HTML5, CSS3, SoundCloud API</i>
+				</div>
+				<div class="col-sm-4 hidden-xs">
+					<img src="/img/projectlaunch.png" align="right">
+				</div>
+			</div>
+			<div class="show-hide"><center><button class="show-hide-btn">Show details</button></center></div>
+			<div class="project-details">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="project-source"><a href="https://github.com/yeah568/project-launch">Client source code on GitHub</a></div>
+						<p>Project Launch emulates the functionality of the <a href="https://www.youtube.com/watch?v=WuV7L4bRkuo">Novation Launchpad</a> programmable grid instrument to allow anyone to easily create their own music and remixes from sampled sound clips. Written entirely in client-side Javascript, Project Launch also allows for the use of macros, loops, and user-programmable keyboard shortcuts to make creating music even easier and more convenient.</p>
+
+						<p>Project Launch was created in 24 hours at DubHacks 2014.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+	  <div class="container">
+		<div class="row">
+		<div class="col-sm-4 col-sm-offset-4 footerbuttons">
+		  <a href="https://github.com/mparkms">
+			<div class="col-xs-4 footerbutton">
+			  <span class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-github fa-stack-1x text-footericon"></i>
+			  </span>
+			  <div>github</div>
+			</div>
+		  </a>
+		  <a href="https://www.linkedin.com/in/mparkms">
+			<div class="col-xs-4 footerbutton">
+			  <span class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-linkedin fa-stack-1x text-footericon"></i>
+			  </span>
+			  <div>linkedin</div>
+			</div>
+		  </a>
+		  <a href="https://twitter.com/kaabistar">
+			<div class="col-xs-4 footerbutton">
+			  <span class="fa-stack fa-2x">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-twitter fa-stack-1x text-footericon"></i>
+			  </span>
+			  <div>twitter</div>
+			</div>
+		  </a>
+		  <div>Find more ways to reach me at my <a href="/contact">contact page.</a></div>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-xs-12 footertext">
+		  <div>Copyright 2015 Mike Park.</div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>
