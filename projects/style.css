@@ -90,6 +90,11 @@ button {
 	background-color: #666;
 }
 
+.img-gallery {
+	margin-top: 20px;
+	text-align: center;
+}
+
 .text-footericon {
 	color: #D72A2A;
 }

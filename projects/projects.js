@@ -7,3 +7,17 @@ $(function() {
 			details.hide(300);
 	});
 })
+
+$(document).ready(function() {
+	$(".fancybox").fancybox();
+
+	$(".fancybox-button").fancybox({
+		prevEffect		: 'none',
+		nextEffect		: 'none',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {}
+		}
+	});
+});
