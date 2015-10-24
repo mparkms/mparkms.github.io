@@ -53,8 +53,8 @@ button {
 }
 
 .project-details a {
-	color: #aaa;
-	text-decoration: underline;
+	color: #888;
+	/*text-decoration: underline;*/
 }
 
 .project-source {
