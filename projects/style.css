@@ -75,20 +75,24 @@ button {
 	border-color: #D72A2A;
 }
 
-#tgthr {
+#parkingpal {
 	background-color: #333;
 }
 
-#nodecg-for-smash {
+#tgthr {
 	background-color: #444;
 }
 
-#pickaplace {
+#nodecg-for-smash {
 	background-color: #555;
 }
 
-#project-launch {
+#pickaplace {
 	background-color: #666;
+}
+
+#project-launch {
+	background-color: #777;
 }
 
 .img-gallery {
